@@ -16,7 +16,7 @@ public class Ejercicio5 {
 		//pide tres numeros 
 		System.out.println("Introduzca tres numeros");
 		
-		//escanea los dos numeros introducidos 
+		//escanea los tres numeros introducidos 
 		a= sc.nextInt();
 		b= sc.nextInt();
 		c= sc.nextInt();

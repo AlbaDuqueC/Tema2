@@ -11,6 +11,8 @@ public class Ejercicio6 {
 		double c;
 		double x1;
 		double x2;
+		double raiz;
+		double dentro;
 				
 		//nuevo scanner
 		Scanner sc= new Scanner(System.in);
@@ -24,8 +26,16 @@ public class Ejercicio6 {
 		c= sc.nextDouble();
 		
 		//Calculo
-		x1= (-a + Math.sqrt((b*b)-(4*a*c)))/(2*a);
-		x2=(-a - Math.sqrt((b*b)-(4*a*c)))/(2*a);
+		dentro=(b*b)-(4*a*c);
+		raiz= Math.sqrt(dentro);
+		x1= (-a + raiz)/(2*a);
+		x2=(-a - raiz)/(2*a);
+		
+		if (raiz==0) {
+			System.out.println("Tiene solo una solución que es: " + x1);
+		}else if(dentro<0){
+			System.out.println("No hay solución");
+		}
 		
 		//Imprime por pantalla 
 		System.out.println(x1 +" y "+ x2);

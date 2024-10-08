@@ -51,8 +51,9 @@ public class Ejercicio6 {
 			
 			
 		}else if (dentro>0){
+		
 			//Imprime por pantalla 
-		System.out.println(x1 +" y "+ x2);
+			System.out.println(x1 +" y "+ x2);
 			
 		}
 		

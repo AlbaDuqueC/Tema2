@@ -31,14 +31,30 @@ public class Ejercicio6 {
 		x1= (-a + raiz)/(2*a);
 		x2=(-a - raiz)/(2*a);
 		
-		if (raiz==0) {
+		//Si a es igual que 0, se convierte en un problema de prier grado
+		if(a==0) {
+			//Calculamos
+			x1= (-c)/(b);
+			
+			//Imprime la respuesta
+			System.out.println("Solo tiene una solucion: "+ x1);
+			
+		//Si la solución de la raiz da 0m, solo tiene una solución
+		}else if (raiz==0) {
+			
+			//Imprime por pantalla la solucion
 			System.out.println("Tiene solo una solución que es: " + x1);
+			
+		//Si la solucion dentro de la raiz da negativo, no hay solución
 		}else if(dentro<0){
 			System.out.println("No hay solución");
-		}
-		
-		//Imprime por pantalla 
+			
+			
+		}else if (dentro>0){
+			//Imprime por pantalla 
 		System.out.println(x1 +" y "+ x2);
+			
+		}
 		
 		//cierre del scanner
 		sc.close();

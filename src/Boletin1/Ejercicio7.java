@@ -8,13 +8,17 @@ public class Ejercicio7 {
 		// Variables
 		int n;
 		
+		//Crea el scanner
 		Scanner sc= new Scanner(System.in);
 		
-		
+		//Pide un numero entre 0 y 99999
 		System.out.println(	"Introduzca un numero entre el 0 y 99999: ");
 		
+		//escanea el numero intoducido
 		n= sc.nextInt();
 		
+		
+		//Imprime por pantalla cuantas cifras tiene dependiendo del numero introducido
 		if (n<10) {
 			
 			System.out.println("Tiene solo una cifra");
@@ -34,8 +38,9 @@ public class Ejercicio7 {
 			
 			System.out.println("Se pide un numero entre 0 y 99999, vuelva a introducir el numero");
 		}
-			
 		
+		//Cierre del scanner
+		sc.close();
 
 	}
 

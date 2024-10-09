@@ -11,7 +11,7 @@ public class Ejercicio8 {
 				//Crea el scanner
 				Scanner sc= new Scanner(System.in);
 				
-				//Pide un numero entre 0 y 99999
+				//Pide un numero entre 0 y 10
 				System.out.println(	"Introduzca tu nota (0-10): ");
 				
 				//escanea el numero intoducido

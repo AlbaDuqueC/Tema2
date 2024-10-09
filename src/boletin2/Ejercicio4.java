@@ -51,7 +51,7 @@ public class Ejercicio4 {
 			}
 			
 			
-		}
+		};
 		
 		numB = switch (tirada1) {
 			case "UNO" ->{
@@ -78,7 +78,7 @@ public class Ejercicio4 {
 			}
 			
 			
-		}
+		};
 		
 		System.out.println(numA+numB);
 		

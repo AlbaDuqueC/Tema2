@@ -53,7 +53,7 @@ public class Ejercicio4 {
 			
 		};
 		
-		numB = switch (tirada1) {
+		numB = switch (tirada2) {
 			case "UNO" ->{
 				yield 1;
 			}

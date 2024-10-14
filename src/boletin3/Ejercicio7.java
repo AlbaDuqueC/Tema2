@@ -30,6 +30,7 @@ public class Ejercicio7 {
 		//escanea el numero introducida
 		dias= sc.nextInt();
 		
+		//Calculo
 		precio1= distancia* PRECIO_KILOMETRO;
 		precioD=precio1 - (precio1*DESCUENTO);
 		

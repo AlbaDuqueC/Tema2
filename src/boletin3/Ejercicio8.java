@@ -27,7 +27,7 @@ public class Ejercicio8 {
 		
 		if ((año % 4) == 0 && mes.equals("febrero")) {
 					
-					System.out.println(29 + " dias");
+			System.out.println(29 + " dias");
 					
 		}else {
 		
@@ -72,8 +72,8 @@ public class Ejercicio8 {
 			yield -1;
 		}
 		};
-		System.out.println(dias + " dias");
-				}
+			System.out.println(dias + " dias");
+		}
 		
 		//cierre del scanner
 		sc.close();

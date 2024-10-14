@@ -25,6 +25,12 @@ public class Ejercicio8 {
 		//escanea el numero introducida
 		mes= sc.next();
 		
+		if ((año % 4) == 0 && mes.equals("febrero")) {
+					
+					System.out.println(29 + " dias");
+					
+		}else {
+		
 		dias= switch (mes) {
 		case "enero" ->{
 			yield 31;
@@ -66,16 +72,9 @@ public class Ejercicio8 {
 			yield -1;
 		}
 		};
+		System.out.println(dias + " dias");
+				}
 		
-		if ((año % 4 == 0 && año % 100 != 0) || (año % 100 == 0 && año % 400 == 0)) {
-			if (mes=="febrero") {
-				System.out.println(29 + " dias");
-			}else {
-				System.out.println(dias +" dias");
-			}
-		}else {
-			System.out.println(dias + " dias");
-		}
 		//cierre del scanner
 		sc.close();
 

@@ -8,13 +8,12 @@ public class Ejercicio5 {
 	public static void main(String[] args) {
 		// Valores
 		Random rand1 = new Random();
-		Random rand2 = new Random();
 		int respuesta;
 		int solucion;
 
 		// creamos los valores numericos randoms
-		int num1 = rand1.nextInt(100) + 1;
-		int num2 = rand2.nextInt(100) + 1;
+		int num1 = rand1.nextInt(1,100) ;
+		int num2 = rand1.nextInt(1,100) ;
 
 		// Crea el scanner
 		Scanner sc = new Scanner(System.in);
@@ -31,7 +30,7 @@ public class Ejercicio5 {
 		if (respuesta == solucion) {
 			System.out.println("La respuesta es correcta");
 
-		} else if (respuesta != solucion) {
+		} else {
 			System.out.println("La respuesta es erronea");
 		}
 

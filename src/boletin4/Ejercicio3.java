@@ -9,6 +9,7 @@ public class Ejercicio3 {
 
 		// Esta variable sirve para introducir el numero
 		int numA = 0;
+		
 		// Este servira para hacer que el bucle funcione como nos pide
 		int suma = 0;
 
@@ -42,7 +43,7 @@ public class Ejercicio3 {
 			contador++;
 		}
 		;
-		// Imprime por panta el finalización del bucle
+		// Imprime por panta la media
 		System.out.println("La media es " + (suma / contador));
 
 		// Cierre del scanner

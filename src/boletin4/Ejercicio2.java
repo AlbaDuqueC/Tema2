@@ -9,8 +9,9 @@ public class Ejercicio2 {
 
 		// Esta variable sirve para introducir el numero
 		int numA = 0;
-		
-		int contador=0;
+
+		// Esta variable sirve para contar cuantas veces a empezado el bucle
+		int contador = 0;
 
 		// Crea el scanner
 		Scanner sc = new Scanner(System.in);
@@ -22,14 +23,13 @@ public class Ejercicio2 {
 
 			// Escanea el numero introducido
 			numA = sc.nextInt();
-			
-			//cuent cada vez que empieza el bucle
-			contador++;
 
+			// cuent cada vez que empieza el bucle
+			contador++;
 		}
 		;
 		// Imprime por pantalla el numero de veces que has introducido
-		System.out.println("Has introducido "+ contador + " veces");
+		System.out.println("Has introducido " + contador + " veces");
 
 		// cierre del scanner
 		sc.close();

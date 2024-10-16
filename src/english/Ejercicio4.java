@@ -9,7 +9,7 @@ public class Ejercicio4 {
 		// Variables
 		Random rand = new Random();
 		int answer;
-		int numRand = rand.nextInt(1,100) ;
+		int numRand = rand.nextInt(1,101) ;
 
 		// Create the scanner
 		Scanner sc = new Scanner(System.in);

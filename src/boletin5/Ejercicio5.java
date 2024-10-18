@@ -21,10 +21,12 @@ public class Ejercicio5 {
 		do {
 			Random rand = new Random();
 			numRand = rand.nextInt(1, 101);
-			System.out.println(numRand);
+			System.out.println("¿Tu numero es "+numRand + "?");
 			
 		}while (numRand != respuesta) ;
 		System.out.println(numRand + " Es correcto");
+		
+		sc.close();
 
 	}
 

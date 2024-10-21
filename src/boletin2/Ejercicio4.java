@@ -23,6 +23,7 @@ public class Ejercicio4 {
 		
 		//escanea el numero intoducido
 		tirada1= sc.next();
+		
 		tirada2= sc.next();
 		
 		//creamos un swich para poder identificar el dia

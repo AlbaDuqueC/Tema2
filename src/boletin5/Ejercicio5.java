@@ -3,8 +3,6 @@ package boletin5;
 import java.util.Random;
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class Ejercicio5 {
 
 	public static void main(String[] args) {

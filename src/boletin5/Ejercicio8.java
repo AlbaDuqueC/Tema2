@@ -18,13 +18,15 @@ public class Ejercicio8 {
 		
 		//Si no introduces Si, sigue el bucle
 		do {
-		//Pide que introduzcas dos numeros
+		//Pide que introduzcas un numeros
 		System.out.println(	"¿Cuantos has sacado en cada dado? ");
 		
 		//escanea el numero intoducido
 		tirada1= sc.next();
-		tirada2= sc.next();
 		
+		
+		
+		do {
 		//creamos un swich para poder identificar el dia
 		numA = switch (tirada1) {
 			case "UNO" ->{
@@ -46,12 +48,22 @@ public class Ejercicio8 {
 				yield 6;
 			}
 			default ->{
-				System.out.println("Vuelva a introducir el numero");
-				yield -1;
-			}
+				yield 0;
+				}
+			
 			
 			
 		};
+		}while ((tirada1.equalsIgnoreCase("UNO")||tirada1.equalsIgnoreCase("UNO")
+				||tirada1.equalsIgnoreCase("UNO")||tirada1.equalsIgnoreCase("UNO")
+				||tirada1.equalsIgnoreCase("UNO")||tirada1.equalsIgnoreCase("UNO"))==false);
+		
+		do {
+		//Pide que introduzcas un numeros
+		System.out.println(	"¿Cuantos has sacado en cada dado? ");
+		
+		//escanea el numero intoducido
+		tirada2= sc.next();
 		
 		numB = switch (tirada2) {
 			case "UNO" ->{
@@ -73,12 +85,16 @@ public class Ejercicio8 {
 				yield 6;
 			}
 			default ->{
-				System.out.println("Vuelva a introducir el numero");
-				yield -1;
+			yield 0;
 			}
 			
 			
 		};
+		}while((tirada1.equalsIgnoreCase("UNO")||tirada1.equalsIgnoreCase("UNO")
+				||tirada1.equalsIgnoreCase("UNO")||tirada1.equalsIgnoreCase("UNO")
+				||tirada1.equalsIgnoreCase("UNO")||tirada1.equalsIgnoreCase("UNO"))==false);
+		
+		
 		System.out.println(numA+numB);
 		
 		//Salir o no

@@ -11,7 +11,12 @@ public class Ejercicio8 {
 		
 		Scanner sc= new Scanner(System.in);
 		
-		System.out.println();
+		//
+		System.out.println("Introduzca un numero");
+		numA= sc.nextInt();
+		
+		System.out.println("Introduzca un numero");
+		numB= sc.nextInt();
 
 	}
 

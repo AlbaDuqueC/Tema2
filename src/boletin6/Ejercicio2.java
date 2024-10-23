@@ -19,7 +19,7 @@ public class Ejercicio2 {
 		//Escanea el numero introducido y se lo da al valor n
 		n= sc.nextInt();
 		
-		//Este sirve para que i se imprima hasta llegar al numero n
+		//Este sirve para que i se imprima los multiplos de tres hasta llegar al numero n
 		for (int i=1; n>=i; i+=3) {
 			System.out.println(i);
 			if(i==1) {

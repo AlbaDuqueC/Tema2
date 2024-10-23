@@ -25,7 +25,7 @@ public class Ejercicio7 {
 		for (int i = 2; i < num; i++) {
 
 			// Si es pimo el resultado tiene que ser 0
-			if ((double) (((double) (num / i)) - ((int) num / i)) == 0) {
+			if ((double)(num%i) == 0) {
 				primo = true;
 			}
 		}

@@ -10,7 +10,7 @@ public class Ejercicio7 {
 		int num;
 
 		//variable que te dice si es primo o no
-		boolean primo = false;
+		boolean primo = true;
 
 		// Scanner
 		Scanner sc = new Scanner(System.in);
@@ -24,11 +24,15 @@ public class Ejercicio7 {
 		// Te calcula si es primo o no
 		for (int i = 2; i < num; i++) {
 
-			// Si es pimo el resultado tiene que ser 0
-			if ((double)(num%i) == 0) {
-				primo = true;
+			// Si es primo el resultado tiene que ser 0
+			if ((double)(num%i) ==0) {
+				primo = false;
 			}
 		}
+		//Si es 1 no es primo
+		if (num==1) {
+			System.out.println("No es primo");
+		}else 
 		//Te dice si es primo o no
 		System.out.println(primo == true ? "Es primo" : "No es primo");
 

@@ -57,7 +57,7 @@ public class Ejercicio1_2 {
 				 
 			 horaFin= hora+j;
 			 
-			 for(horaFin=24; horaFin>=24  ;horaFin-=24 ) {
+			 for(; horaFin>=24  ;horaFin-=24 ) {
 				 		 
 		 }	
 		 }

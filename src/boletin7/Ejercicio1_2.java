@@ -49,19 +49,20 @@ public class Ejercicio1_2 {
 		 minFin=min;
 		 horaFin=hora;
 		 
-		 for(segFin=60; segFin>60; segFin-=60) {
-		 for(int i=0; minFin+i>60; i++ ) {
-			 segFin-=60;
-			 minFin+=1;
-			 while(minFin>=60) {
-				 minFin-=60;
-				 horaFin+=1;
-				 while(horaFin>=24) {
-					 horaFin-=24;
-				 }
-			 }
+		 for(int i=1; segFin>=60; segFin-=60 ) {
+			 
+			 minFin=min+i;
+			 
+			 for(int j=1; minFin>=60; minFin-=60 ) {
+				 
+			 horaFin= hora+j;
+			 
+			 for(horaFin=24; horaFin>=24  ;horaFin-=24 ) {
+				 		 
+		 }	
 		 }
 		 }
+		 
 		 resultado+=(horaFin<10? "0": "")+ horaFin + ":";
 		 resultado+=(minFin<10? "0": "")+ minFin + ":";
 		 resultado+=(segFin<10? "0": "")+ segFin + ":";

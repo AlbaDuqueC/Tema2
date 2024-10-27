@@ -42,7 +42,7 @@ public class Ejercicio1_2 {
 			 seg= sc.nextInt();
 		 }
 		 
-		 System.out.println("Introduce los segumdos para incrementar");
+		 System.out.println("Introduce los segundos para incrementar");
 		 segIn= sc.nextInt();
 		 
 		 segFin=seg + segIn;

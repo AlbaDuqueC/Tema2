@@ -2,7 +2,7 @@ package boletin7;
 
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio4 {
 
 	public static void main(String[] args) {
 		// Variables
@@ -22,10 +22,15 @@ public class Ejercicio3 {
 		} else {
 			numMenor = numA;
 		}
-		for (; 1 <= numMenor; numMenor--) {
-			if (numA % numMenor == 0 && numB % numMenor == 0) {
-				System.out.println(numMenor);
-				numMenor = 1;
+		for (int i = 2; i >= 2 && i <= numMenor; i++) {
+
+			if (i >= numMenor) {
+				System.out.println("Lo numeros no compraten ningun multiplo");
+			}
+
+			if (numA % i == 0 && numB % i == 0) {
+				System.out.println(i);
+				i = ++numMenor;
 			}
 
 		}

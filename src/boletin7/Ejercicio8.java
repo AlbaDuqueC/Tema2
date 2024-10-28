@@ -20,7 +20,7 @@ public class Ejercicio8 {
 			System.out.println("Introduce un numero");
 			num2= sc.nextInt();
 			
-			if(num2>num){			
+			if(num2>=num){			
 				contador++;			
 			}
 			else if(num2<num) {				

@@ -8,8 +8,6 @@ public class Ejercicio6 {
 		// Variable
 
 		int num;
-		int contador;
-		
 
 		Scanner sc = new Scanner(System.in);
 
@@ -17,16 +15,14 @@ public class Ejercicio6 {
 		num = sc.nextInt();
 
 		for (int i = 1; i <= num; i++) {
-
-			System.out.println();
-			contador = 1;
 			
-			for ( int j= i; j>=contadorEspacio) {
-
-			for (int k = i; k >= contador; contador++) {
-				System.out.print(" * ");
+			for ( int j= 0; j<num - i ; j++) {
+				System.out.print(" ");
 			}
+			for (int k = 0; k <i ; k++) {
+				System.out.print("* ");
 			}
+			System.out.println(" ");
 
 		}
 

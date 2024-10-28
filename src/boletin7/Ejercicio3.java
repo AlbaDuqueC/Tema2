@@ -17,6 +17,7 @@ public class Ejercicio3 {
 
 		System.out.println("Introduzca un numero");
 		numB = sc.nextInt();
+		
 		if (numA > numB) {
 			numMenor = numB;
 		} else {
@@ -29,8 +30,8 @@ public class Ejercicio3 {
 			}
 
 		}
+		
 		sc.close();
-
 	}
 
 }
